@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+	<title>Reg Form</title>
+	<style type="text/css">
+	body{
+		text-align: center;
+		background-image: url(https://www.adomonline.com/wp-content/uploads/2019/06/WAEC-logo.jpg);
+		background-size: cover;background-repeat: no repeat;
+		font-size: 25px; 		
+		width:  500px;
+        height: 500px;
+	}	
+	form{
+		 border: 2px dotted transparent;
+        border-radius: 30px;
+        padding-bottom: 20px;
+        margin-left: 30px;
+        	width:  500px;
+        height: 500px;
+	}
+	h1{
+		color: yellow;
+		font-family: fantasy;
+	}
+	form{
+		color: black;
+		background-color: blue;
+	}
+	div{
+		font-family: 'Roboto Condensed',sans-serif;
+	}
+	button{
+		background-color: yellow;
+	}
+	</style>
+</head>
+<body>
+	<form>
+	<h1> REGISTRATION FORM  </h1>
+	<div class="firstName">
+		<label>First Name</label>
+	    <br>
+		<input type="text" name="fullName" />
+    </div>
+
+    <div class="lastName">
+	    <label>Last Name</label>
+	    <br>
+	    <input type="text" name="lastName" />
+   </div>
+
+   <div class="email">
+	    <label>Email Address</label>
+	    <br>
+	    <input type="Email" name="email" />
+   </div>
+
+   <div class="phonenumber">
+	    <label>Phone Number</label>
+	    <br>
+	    <input type="number" name="phone" />
+   </div>
+
+   <div class="gender">
+		<label> Gender</label>
+		<br>
+		<input type="radio" name="gender" value="male"> Male 
+		<input type="radio" name="gender" value="Female"> Female
+		<input type="radio" name="gender" value="other"> Others
+   </div>
+    <button type="submit" style=" border-radius: 30px;"> Submit</button>
+
+</form>
+</body>

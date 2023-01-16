@@ -1,0 +1,26 @@
+
+
+p{
+	color: orangered;
+
+}
+.BreedsofDogs{
+	font-style: italic;
+}
+#train{
+	color: currentColor;
+}
+
+.REX div{
+         height: 100px;
+         width: 100px;
+         background-color: #1a93a1;
+         margin: 5px;
+}
+
+.REX {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+}
